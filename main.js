@@ -8,7 +8,7 @@
     }
 };*/
 
-var setNums = [1, 2];
+var setNums = [];
 
 function randint(min, max) {
     return Math.floor(Math.random() * (1 + max - min)) + min;
@@ -100,7 +100,6 @@ function createFactors() {
         } else {
             var sizeLimit = 130;
         }
-        console.log(sizeLimit);
         if (bigNum > sizeLimit || pf.length > 6 || pf.reduce(function(a, b){return a + b;}, 0) > 18) {
             continue;
         } else {
