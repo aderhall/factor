@@ -1,0 +1,158 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+html {
+    /*background-color: #f3efe4;*/
+    background-color: #eee;
+}
+
+body {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px
+}
+
+a {
+    color: #1c5065;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #16272d;
+}
+
+h1 {
+    color: #222;
+    margin: 10px 0;
+}
+
+h2 {
+    color: #666;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/*.problems-card a {
+    text-decoration: none;
+    color: #739fb1;
+    transition: color 0.1s;
+}
+
+.problems-card a:hover {
+    color: #294854;
+}*/
+
+.problems-card {
+    background-color: #fff;
+    max-width: 100%;
+    margin: 20px auto;
+    /*border: 1px #bbb solid;*/
+    border-radius: 10px;
+    box-shadow: 1px 4px 10px #bbb;
+    padding: 10px 25px;
+}
+
+.card-header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: stretch;
+}
+
+.card-header * {
+    padding: 0px 10px;
+}
+
+.card-header h2 {
+    justify-self: flex-start;
+    font-weight: 300;
+    margin: 15px 0;
+}
+
+.card-header span {
+    color: #bbb;
+}
+
+.space {
+    flex-grow: 1;
+}
+
+.problems-card hr {
+    border: 0px;
+    border-top: 1px solid #bbb;
+    margin-top: 0;
+}
+
+.problems-list li {
+    line-height: 2em;
+    font-size: 20px;
+}
+
+.problems-list .question {
+    float: left;
+}
+.problems-list .answer {
+    float: right;
+    width: 35%;
+    color: #0d670d;
+    transition: color 0.2s;
+}
+
+.problems-list .hidden {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+    color: #fff;
+}
+
+.show-one {
+    display: none;
+    float: right;
+    line-height: 40px;
+    height: 40px;
+    padding-right: 40px;
+}
+
+.show-one.sticky {
+    display: block;
+}
+
+.show-one a {
+    font-size: 15px;
+}
+
+.problems-list li:hover .show-one {
+    display: block;
+}
+
+.add-problems {
+    font-size: 16px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.add-problems a:first-child {
+    padding: 0;
+}
+
+.add-problems a {
+    padding: 0 0 0 20px;
+}
+
+#discard-set {
+    color: #b50000;
+    transition: color 0.1s;
+}
+
+#discard-set:hover {
+    color: #6d1414;
+}
+
