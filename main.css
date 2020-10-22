@@ -218,7 +218,7 @@ h2 {
 @media only screen and (max-width: 450px) {
     .problems-list li {
         line-height: 1.5em;
-        font-size: 11px;
+        font-size: 13px;
     }
     .card-header a {
         font-size: 10px;
@@ -230,6 +230,12 @@ h2 {
         font-size: 11px;
     }
     #new-set {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .problems-list li {
         font-size: 10px;
     }
 }
